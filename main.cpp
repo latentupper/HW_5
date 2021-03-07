@@ -10,9 +10,6 @@ int main() {
     std::ofstream c_out{"../processed/c.txt"};
     std::ofstream even_out{"../processed/even.txt"};
     std::ofstream odd_out{"../processed/odd.txt"};
-    std::vector<std::string> words_c;
-    std::vector<std::string> words_even;
-    std::vector<std::string> words_odd;
     for(std::string word; file_in >> word;) {
         bool c_exists = false;
         int quantity = 0;
